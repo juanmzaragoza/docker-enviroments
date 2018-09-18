@@ -1,0 +1,22 @@
+version: '2'
+services:
+  # db:
+  #   container_name: db
+  #   image: juanmzaragoza/mysql-5.5.47-with-root-password
+  #   ports:
+  #     - "3307:3306"
+  #   volumes:
+  #     - "./conf/mysql:/var/lib/mysql"
+  #     - "./conf/conf.d:/etc/mysql/conf.d"
+  #   environment:
+  #     MYSQL_ROOT_PASSWORD: root 
+
+  web:
+    container_name: docker-apache2-php5
+    build: ./apache2
+    ports:
+      - "8080:80"
+    volumes:
+      - ./src/public:/var/www/public
+    #links:
+    #  - db

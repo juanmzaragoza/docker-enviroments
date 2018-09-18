@@ -1,0 +1,13 @@
+apache2-php5-mysql/src/public/*
+!apache2-php5-mysql/src/public/phpinfo.php
+
+docker-server-apache2-php-phpmyadmin/docker/mysql/*
+!docker-server-apache2-php-phpmyadmin/docker/mysql/.hidden
+!docker-server-apache2-php-phpmyadmin/public_html/.hidden
+
+mysql/docker/mysql/data/*
+!mysql/docker/mysql/data/.hidden
+!mysql/docker/mysql/user/.hidden
+
+postgresql/docker/postgresql/data/*
+!postgresql/docker/postgresql/data/.hidden
