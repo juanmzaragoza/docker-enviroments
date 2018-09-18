@@ -1,4 +1,4 @@
-# Mulltiple docker-compose projects
+# Multiple docker-compose projects
 
 This projects allow us instantiate different development enviroments.
 
