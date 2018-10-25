@@ -1,0 +1,4 @@
+data/mongo/*
+data/user/*
+!data/mongo/.hidden
+!data/user/.hidden
