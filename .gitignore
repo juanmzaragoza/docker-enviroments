@@ -11,3 +11,6 @@ mysql/docker/mysql/data/*
 
 postgresql/docker/postgresql/data/*
 !postgresql/docker/postgresql/data/.hidden
+
+neo4j/data/*
+!neo4j/data/.hidden
