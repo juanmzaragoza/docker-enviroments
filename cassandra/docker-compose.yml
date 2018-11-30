@@ -1,0 +1,15 @@
+version: '2'
+services:
+  cassandra:
+    container_name: cassandra
+    restart: always
+    image: bitnami/cassandra:latest
+    ports:
+      - "7000:7000"
+      - "9042:9042"
+    volumes:
+      - "./data:/bitnami"
+    environment:
+      CASSANDRA_CLUSTER_NAME: some-cluster
+      CASSANDRA_USER: cassandra
+      CASSANDRA_PASSWORD: cassandra

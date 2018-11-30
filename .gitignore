@@ -14,3 +14,6 @@ postgresql/docker/postgresql/data/*
 
 neo4j/data/*
 !neo4j/data/.hidden
+
+cassandra/data/*
+!cassandra/data/.hidden
