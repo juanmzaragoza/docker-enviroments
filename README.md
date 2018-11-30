@@ -24,4 +24,4 @@ We need install the nexts dependencies:
 
 ## Authors
 
-* **Juan Manuel Zaragoza** - *Initial work* - [juanmzaragoza](https://github.com/juan
+* **Juan Manuel Zaragoza** - *Initial work* - [juanmzaragoza](https://github.com/juanmzaragoza)
