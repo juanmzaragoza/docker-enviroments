@@ -2,7 +2,6 @@ version: '2'
 services:
   db:
     container_name: postgresql
-    restart: always
     image: postgres:9.5
     ports:
       - "5432:5432"
