@@ -17,6 +17,7 @@ services:
     ports:
       - "8080:80"
     volumes:
-      - ./src/public:/var/www/public
+      - ./src/public:/var/www/html
+    tty: true
     #links:
     #  - db
