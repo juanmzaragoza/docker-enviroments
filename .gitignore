@@ -17,3 +17,6 @@ neo4j/data/*
 
 cassandra/data/*
 !cassandra/data/.hidden
+
+mariadb/docker/mariadb/data/*
+!mariadb/docker/mariadb/data/.hidden
